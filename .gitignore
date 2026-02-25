@@ -1,0 +1,60 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below if you use vendor directories)
+/vendor/
+
+# Go workspace file
+go.work
+
+# IDE/editor files
+*.log
+*.vs
+*.vscode/
+.idea/
+
+# Mac files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Node modules if any
+node_modules/
+
+# Docker
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore local executables
+bin/
+
+# Coverage
+coverage.out
+
+# Environment files
+.env
+
+# Build output
+build/
+
+tmp/
+
+# Other
+
+cmd/.env
+
